@@ -11,23 +11,30 @@ result = x / y
 print(result)
 #------------------------------------------------------------------------------------
 # Question 2: Comparison and Logical Operators
-a=4
-b=2
-c=3
+a= int(input("Enter a number:  "))
+b= int(input("Enter a number:  "))
+c= int(input("Enter a number:  "))
 # TODO: Create a condition that checks if a is greater than b
 if a > b:
   True
+else:
+  False
 # TODO: Create a condition that checks if b is even (hint: use the modulus operator)
 if b % 2 ==0:
   True
+else: 
+  False
 # TODO: Create a condition that checks if c is less than or equal to a
 if c <= a:
   True
+else:
+  False
 # TODO: Combine the above conditions using logical operators to create a 'final_condition'
 #       The 'final_condition' should be True if either:
 #       - a is greater than b, or
 #       - b is even and c is less than or equal to a
 Final_condition = (a>b) or (b % 2 == 0) and (c <= a)
+
 # TODO: Print the value of 'final_condition'
 print(Final_condition)
 #------------------------------------------------------------------------------------
