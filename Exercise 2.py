@@ -15,16 +15,19 @@ a=4
 b=2
 c=3
 # TODO: Create a condition that checks if a is greater than b
-a > b
+if a > b:
+  True
 # TODO: Create a condition that checks if b is even (hint: use the modulus operator)
-b % 2
+if b % 2 ==0:
+  True
 # TODO: Create a condition that checks if c is less than or equal to a
-c <= a
+if c <= a:
+  True
 # TODO: Combine the above conditions using logical operators to create a 'final_condition'
 #       The 'final_condition' should be True if either:
 #       - a is greater than b, or
 #       - b is even and c is less than or equal to a
-Final_condition = (a>b) or (b % 2) and (c <= a)
+Final_condition = (a>b) or (b % 2 == 0) and (c <= a)
 # TODO: Print the value of 'final_condition'
 print(Final_condition)
 #------------------------------------------------------------------------------------
